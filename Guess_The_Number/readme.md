@@ -1,7 +1,10 @@
 # PROJECT 1: NUMBER GUESSING GAME 
-We will write a program that generates a random number and asks the player to guess 
-it. If the player’s guess is higher than the actual number, the program displays “Lower 
-number please”. Similarly, if the user’s guess is too low, the program prints “Higher 
-number please”. 
-When the user guesses the correct number, the program displays the number of 
-guesses the player used to arrive at the number. 
+A simple terminal-based number guessing game written in C. The program generates a random number based on the chosen difficulty, and you try to guess it with hints until you get it right.
+Features
+Three difficulty levels:
+ Easy → 1 to 100
+ Medium → 1 to 500
+ Hard → 1 to 1000
+Shows “Higher” or “Lower” hints
+Counts total guesses
+Option to play again
